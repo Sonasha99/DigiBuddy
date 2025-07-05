@@ -1,28 +1,41 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# DigiBuddy
 
-## Available Scripts
+**DigiBuddy** is a digital companion platform designed to support individuals with accessibility needs. It aims to create a more inclusive and user-friendly web experience through informative content and helpful features.
 
-In the project directory, you can run:
+## 🌟 Features
 
-### `npm start`
+- Informational pages tailored for different needs
+- Simple, accessible design
+- Easy navigation between sections
+- Lightweight and responsive
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📁 Project Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
 
-### `npm test`
+DigiBuddy/
+├── pages/              # HTML pages (e.g., home, about, contact)
+├── styles/             # CSS styles for each page
+├── scripts/            # JavaScript (if any interactivity is added)
+├── assets/             # Images and media files
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+````
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sonasha99/DigiBuddy.git
+````
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Open `pages/home.html` in your browser to get started.
+
+
+
+## 📬 Contact
+
+For questions, feedback, or suggestions:
+📧 **[connectsonasha@gmail.com](mailto:connectsonasha@gmail.com)**
+
+```
