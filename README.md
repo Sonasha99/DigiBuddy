@@ -27,9 +27,6 @@ DigiBuddy/
 1. Clone the repository:
    ```bash
    git clone https://github.com/Sonasha99/DigiBuddy.git
-````
-
-2. Open `pages/home.html` in your browser to get started.
 
 
 
