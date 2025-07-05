@@ -1,0 +1,196 @@
+/* ReportGeneration.css */
+.report-generationmain {
+    padding: 2rem;
+    background: linear-gradient(135deg, #0a192f, #000000);
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #4ecdc4;
+    text-shadow: 0 0 5px rgba(0, 200, 224, 0.5);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .header p {
+    font-size: 1.1rem;
+    opacity: 0.85;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .generate-section {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .generate-button {
+    padding: 1.2rem 2.5rem;
+    font-size: 1.2rem;
+    background: linear-gradient(90deg, #00c8e0, #0055aa);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+    margin-left: 610px;
+  }
+  
+  .generate-button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #0055aa, #4ecdc4);
+  }
+  
+  .loading {
+    font-size: 1.2rem;
+    color: #4ecdc4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .spinner {
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    100% { transform: rotate(360deg); }
+  }
+  
+  .report-section {
+    max-width: 1200px;
+    margin: 2rem auto;
+  }
+  
+  .report-section h2 {
+    font-size: 2rem;
+    color: #4ecdc4;
+    text-align: center;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .report-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .report-card {
+    background: linear-gradient(145deg, #1c2541, #2f3e5a);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .report-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-icon {
+    font-size: 2rem;
+    color: #4ecdc4;
+    margin-bottom: 1rem;
+  }
+  
+  .report-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .report-card p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+  }
+  
+  /* Flashcards Section */
+  .flashcards-section {
+    max-width: 1200px;
+    margin: 4rem auto;
+  }
+  
+  .flashcards-section h2 {
+    font-size: 1.8rem;
+    color: #4ecdc4;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .report-flashcards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .flashcard {
+    background: linear-gradient(145deg, #1c2541, #2f3e5a);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .flashcard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .flashcard-icon {
+    font-size: 2rem;
+    color: #4ecdc4;
+    margin-bottom: 1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 2rem;
+    }
+    
+    .report-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .generate-button {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .report-generationmain {
+      padding: 1rem;
+    }
+    
+    .header h1 {
+      font-size: 1.8rem;
+    }
+    
+    .flashcard {
+      padding: 1.5rem;
+    }
+  }

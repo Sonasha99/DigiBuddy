@@ -1,0 +1,146 @@
+/* Profile.css */
+.profile-page {
+  padding: 2rem;
+  background: linear-gradient(135deg, #0a192f, #000000);
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-picture {
+  font-size: 4rem;
+  color: #4ecdc4;
+  margin-bottom: 1rem;
+}
+
+.profile-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.profile-info p {
+  color: #8b9bb8;
+  font-size: 1rem;
+}
+
+.logout-button {
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(90deg, #ff5a5f, #e53935);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.logout-button:hover {
+  transform: scale(1.05);
+}
+
+.profile-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.option-card {
+  background: linear-gradient(145deg, #1c2541, #2f3e5a);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+}
+
+.option-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 255, 255, 0.5);
+}
+
+.option-icon {
+  font-size: 2rem;
+  color: #4ecdc4;
+  margin-bottom: 1rem;
+}
+
+.option-card h3 {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.bottom-navigation {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(145deg, #1c2541, #2f3e5a);
+  padding: 1rem;
+  border-radius: 12px;
+  margin-top: auto;
+  box-shadow: 0 -4px 15px rgba(0, 255, 255, 0.3);
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  color: #8b9bb8;
+  transition: all 0.3s ease;
+}
+
+.nav-item.active {
+  color: #4ecdc4;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+  color: #4ecdc4;
+}
+
+.nav-icon {
+  font-size: 1.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-page {
+    padding: 1rem;
+  }
+
+  .option-card {
+    padding: 1.5rem;
+  }
+}

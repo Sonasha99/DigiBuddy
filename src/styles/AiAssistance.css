@@ -1,0 +1,197 @@
+/* AiAssistance.css */
+.ai-assistancemain {
+  padding: 2rem;
+  background: linear-gradient(135deg, #0a192f, #000000);
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #4ecdc4;
+  text-shadow: 0 0 5px rgba(0, 200, 224, 0.5);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header p {
+  font-size: 1.1rem;
+  opacity: 0.85;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Insights Section */
+.insights {
+  margin-bottom: 3rem;
+}
+
+.insights h2 {
+  font-size: 1.8rem;
+  color: #4ecdc4;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.insight-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.insight-card {
+  background: linear-gradient(145deg, #1c2541, #2f3e5a);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.insight-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-icon {
+  font-size: 2rem;
+  color: #4ecdc4;
+  margin-bottom: 1rem;
+}
+
+.stats {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 0.5rem;
+}
+
+/* Chat Section */
+.chat-box {
+  background: linear-gradient(145deg, #1c2541, #2f3e5a);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+  margin-bottom: 3rem;
+}
+
+.chat-window {
+  height: 300px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  overflow-y: auto;
+}
+
+.message {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.message.user {
+  flex-direction: row-reverse;
+}
+
+.message-content {
+  max-width: 70%;
+  padding: 1rem;
+  border-radius: 12px;
+  background: rgba(78, 205, 196, 0.1);
+  position: relative;
+}
+
+.message.user .message-content {
+  background: rgba(255, 255, 255, 0.1);
+  color: #4ecdc4;
+}
+
+.message-icon {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.chat-controls {
+  display: flex;
+  gap: 1rem;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.send-button {
+  padding: 1rem 2rem;
+  background: linear-gradient(90deg, #00c8e0, #0055aa);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.send-button:hover {
+  transform: scale(1.05);
+}
+
+/* Quick Tips Section */
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.tip-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: linear-gradient(145deg, #1c2541, #2f3e5a);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.tip-card:hover {
+  transform: translateY(-5px);
+}
+
+.tip-icon {
+  font-size: 1.5rem;
+  color: #4ecdc4;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+  
+  .insight-cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .chat-window {
+    height: 250px;
+  }
+}

@@ -1,0 +1,100 @@
+[
+    {
+        "timestamp": "2025-03-16T16:52:09.450582",
+        "active_app": "Marvel Scenes - YouTube - Google Chrome",
+        "screen_content": "6.4M views - 6 months ago",
+        "duration": 0,
+        "category": "Uncategorized"
+    },
+    {
+        "timestamp": "2025-03-16T16:52:09.450582",
+        "active_app": "Marvel Scenes - YouTube - Google Chrome",
+        "screen_content": "Unknown or Inactive Content",
+        "duration": 0,
+        "category": "Uncategorized"
+    },
+    {
+        "timestamp": "2025-03-16T16:52:20.923133",
+        "active_app": "85 Iconic MCU Moments | Marvel 85th Anniversary Compilation (4K) - YouTube - Google Chrome",
+        "screen_content": "25M views + 2 years ago",
+        "duration": 0,
+        "category": "Uncategorized"
+    },
+    {
+        "timestamp": "2025-03-16T16:52:20.923133",
+        "active_app": "85 Iconic MCU Moments | Marvel 85th Anniversary Compilation (4K) - YouTube - Google Chrome",
+        "screen_content": "Unknown or Inactive Content",
+        "duration": 0,
+        "category": "Uncategorized"
+    },
+    {
+        "timestamp": "2025-03-16T16:52:33.108165",
+        "active_app": "screen_data.json - digibuddy - Visual Studio Code",
+        "screen_content": "Unfiltered Content",
+        "duration": 0,
+        "category": "Uncategorized"
+    },
+    {
+        "timestamp": "2025-03-16T16:52:33.108165",
+        "active_app": "screen_data.json - digibuddy - Visual Studio Code",
+        "screen_content": "Unknown or Inactive Content",
+        "duration": 0,
+        "category": "Uncategorized"
+    },
+    {
+        "timestamp": "2025-03-16T16:52:45.251272",
+        "active_app": "Instagram - Google Chrome",
+        "screen_content": "Instagram - Active Post",
+        "duration": 0,
+        "category": "Social Media"
+    },
+    {
+        "timestamp": "2025-03-16T16:52:56.030318",
+        "active_app": "Instagram - Google Chrome",
+        "screen_content": "Instagram - Active Post",
+        "duration": 10,
+        "category": "Social Media"
+    },
+    {
+        "timestamp": "2025-03-16T16:53:07.101920",
+        "active_app": "Instagram - Google Chrome",
+        "screen_content": "Instagram - Active Post",
+        "duration": 21,
+        "category": "Social Media"
+    },
+    {
+        "timestamp": "2025-03-16T16:53:18.483731",
+        "active_app": "Instagram - Google Chrome",
+        "screen_content": "Instagram - Active Post",
+        "duration": 32,
+        "category": "Social Media"
+    },
+    {
+        "timestamp": "2025-03-16T16:53:30.668573",
+        "active_app": "Instagram - Google Chrome",
+        "screen_content": "Instagram - Active Post",
+        "duration": 44,
+        "category": "Social Media"
+    },
+    {
+        "timestamp": "2025-03-16T16:53:30.668573",
+        "active_app": "Instagram - Google Chrome",
+        "screen_content": "Unknown or Inactive Content",
+        "duration": 44,
+        "category": "Uncategorized"
+    },
+    {
+        "timestamp": "2025-03-16T16:53:42.115798",
+        "active_app": "screen_data.json - digibuddy - Visual Studio Code",
+        "screen_content": "Instagram - Active Post",
+        "duration": 0,
+        "category": "Social Media"
+    },
+    {
+        "timestamp": "2025-03-16T16:53:54.818532",
+        "active_app": "screen_data.json - digibuddy - Visual Studio Code",
+        "screen_content": "Instagram - Active Post",
+        "duration": 12,
+        "category": "Social Media"
+    }
+]

@@ -1,0 +1,140 @@
+/* Login Page Styles */
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0a192f, #000000);
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.login-content {
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  padding: 2rem;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #1c2541, #2f3e5a);
+  box-shadow: 0 4px 20px rgba(0, 255, 255, 0.3);
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.login-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #4ecdc4; /* Matching the theme color */
+  text-shadow: 0 0 5px rgba(0, 200, 224, 0.5);
+}
+
+.login-subtitle {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  opacity: 0.85;
+  color: #ffffff;
+}
+
+.login-form {
+  text-align: left;
+}
+
+.login-input {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #121212;
+  transition: box-shadow 0.3s ease;
+}
+
+.login-input:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #00c8e0, #0055aa);
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 255, 255, 0.3);
+}
+
+.login-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #0055aa, #4ecdc4);
+}
+
+.forgot-password {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.forgot-password a {
+  color: #5feadd;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.forgot-password a:hover {
+  color: #ffffff;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .login-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .login-input {
+    padding: 0.7rem;
+  }
+
+  .login-button {
+    padding: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-content h1 {
+    font-size: 2rem;
+  }
+
+  .login-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .login-input {
+    font-size: 0.9rem;
+  }
+
+  .login-button {
+    font-size: 0.9rem;
+  }
+}
